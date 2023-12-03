@@ -125,7 +125,33 @@ print(name, age, height, sep="|")
 
 # %%
 saldo = 40
+saldo += 30
+saldo -= 30
+
 print(saldo)
 
 
-# 17 Punkt
+#%%
+
+lokata = 1000
+czynnik_akumulacyjny = 1 + 0.04
+lokata_po_roku = lokata * czynnik_akumulacyjny
+print ("Wartość lokaty po roku:", lokata_po_roku)
+
+#%%
+pixel = 150
+pixel = pixel / 255
+print(pixel)
+
+#%%
+base = 2
+base **= 5
+
+print(base)
+
+#%%
+
+#17
+
+x=103
+x%=
