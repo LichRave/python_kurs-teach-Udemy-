@@ -131,27 +131,53 @@ saldo -= 30
 print(saldo)
 
 
-#%%
+# %%
 
 lokata = 1000
 czynnik_akumulacyjny = 1 + 0.04
 lokata_po_roku = lokata * czynnik_akumulacyjny
-print ("Wartość lokaty po roku:", lokata_po_roku)
+print("Wartość lokaty po roku:", lokata_po_roku)
 
-#%%
+# %%
 pixel = 150
 pixel = pixel / 255
+# albo
+pixel /= 255
 print(pixel)
 
-#%%
+# %%
 base = 2
 base **= 5
 
 print(base)
 
-#%%
+# %%
 
-#17
+# 17
 
-x=103
-x%=
+x = 103
+x = x % 10
+print(x)
+
+# %%
+imie = "Artem"
+nazwisko = "Monkiewicz"
+imie += nazwisko
+print(imie)
+
+# %%
+result = (5 + 3) * 2 / 4
+print(f"The result is {result}.")
+
+result = (5 + 3) * 2 / 4
+print(f"The result is {result}.")
+
+# %%
+radius = 5
+pi = 3.14159
+kolo = 2 * radius * pi
+
+print(f"The circumference of the circle is {kolo}.")
+
+# %%
+# Leson 21
