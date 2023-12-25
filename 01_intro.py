@@ -181,3 +181,13 @@ print(f"The circumference of the circle is {kolo}.")
 
 # %%
 # Leson 21
+text = "Python-is-amazing"
+print("First three characters:", text[:3])
+print("Last two characters:", text[-2:])
+
+# %%
+text = "Python is amazing!"
+reversed_text = text[::-1]
+print(f"Reversed text: {reversed_text}")
+
+# %%
