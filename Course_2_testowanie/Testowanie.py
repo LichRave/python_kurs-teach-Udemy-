@@ -739,9 +739,44 @@ assert is_prime(n=11) is True
 
 
 #%%
-Rodzaje testów
 Testy techniczne
 Testy jednostkowe (unitowe)
+Testy jednostkowe nazywane są niekiedy również testami komponentów (pod tym słowem może kryć się pojedyncza funkcja, klasa, a czasem cały moduł) lub testami modułowymi.
+
+Mają one zasadniczo dwa cele:
+
+znalezienie błędów w implementacji,
+sprawdzenie zgodności zachowania komponentu z oczekiwaniami.
+Ponadto testy jednostkowe świetnie dokumentują kod.
+
+Obiektami testowymi są pojedyncze komponenty w izolacji. Oczekiwane działanie bierzemy z opisu danej funkcjonalności np. treści zadania, dokumentacji, opisu czynności, itp.
+
+Charakterystyczne cechy testów jednostkowych:
+
+testy jednostkowe są przeprowadzane na bardzo niskim poziomie aplikacji, tj. na poziomie pojedynczych modułów, funkcji czy klas.
+Testy jednostkowe polegają na testowaniu pojedynczych składników większej całości.
+Automatyzacja testów jednostkowych jest z reguły dosyć ,,tania'' pod wieloma względami, np. pracy dewelopera czy złożoności obliczeniowej lub czasowej.
+Testy integracyjne
+Testy integracyjne (bardzo rzadko są nazywane również testami funkcjonalnymi) sprawdzają czy pojedyncze komponenty poprawnie współdziałają ze sobą jako całość. W tych testach komponenty traktowane są jako ,,black boxy'', a nas, jako programistów, interesuje czy części aplikacji poprawnie ze sobą współpracują (innymi słowy czy poprawnie się ze sobą komunikują lub czy dochodzi do poprawnej interakcji między modułami); przykładem może być współpraca/komunikacja między dwoma klasami.
+
+Charakterystyka testów integracyjnych:
+
+testy integracyjne sprawdzają współpracę na poziomie rozłącznych komponentów.
+Ten rodzaj testów może sprawdzać nie tylko współpracę między naszymi klasami, ale komunikację kodu Pythonowego z zewnętrznymi serwisami, np. bazą danych czy zewnętrznym API.
+Często te testy są ,,droższe'' niż testy jednostkowe, bo wymagają włączenia wielu części aplikacji i zwykle są bardziej złożone.
+Testy systemowe
+Testy systemowe są ,,ostatecznymi'' testami, które są przeprowadzane przez programistę. W momencie, w którym pojedyncze części systemu zostały ze sobą zintegrowane możemy przetestować jego działanie jako całości. Nie interesują nas pojedyncze komponenty ani nawet interakcje między nimi. Chcemy sprawdzić czy system działa zgodnie z oczekiwaniami bez wnikania w jego części.
+
+Testami systemowymi mogą być test E2E (ang. end to end), które mogą obejmować całe flow działania programu, np. od założenia konta w jakimś serwisie internetowym do wylogowania.
+
+Cechy charakterystyczne testów systemowych:
+
+testy systemowe symulują zachowanie użytkownika danego oprogramowania w pełnym środowisku aplikacji,
+testy tego rodzaju sprawdzają czy aplikacja jako całość działa zgodnie z założeniami,
+testy systemowe są trudne do sklasyfikowania pod kątem ich ,,ceny''; są sytuacje, w których mogą być bardzo proste, ale inne mogą obejmować bardzo złożone scenariusze (np. otrzymanie maila powitalnego po zalogowaniu się, wykonanie poprawne płatności, itd.).
+Testy nietechniczne
+Testy akceptacyjne
+Testy akceptacyjne są zazwyczaj wykonywane po stronie klienta lub przez użytkowników końcowych. Do tych testów potrzebujemy w pełni działającej wersji aplikacji; celem tych testów nie jest wyłapanie błędów, ale zbadanie czy aplikacja działa zgodnie z wytycznymi określonymi przez klientów/użytkowników/architektów systemów.
 
 #%%
 
