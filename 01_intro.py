@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # %%
-commit_name = "training from scratch, day _ (dd.mm.rr)"
+commit_name = "training from scratch, day 10 (18.01.24)"
 print(commit_name)
 
 # %%
