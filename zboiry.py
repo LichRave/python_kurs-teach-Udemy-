@@ -101,4 +101,3 @@ set2 = set([4, 5, 6, 7, 8])
 union_set = set(list(set1) + list(set2))
 
 print("Union set without duplicates:", union_set)
-# %%

@@ -125,7 +125,7 @@ print(f"The extension '{char}' appears {count} times in the text.")
 # Określa, gdzie zostanie zapisany wydruk funkcji print()
 
 # %%
-text=(1, 23, 3432345, 5235)
+text = (1, 23, 3432345, 5235)
 print(text, sep=",")
 
 # %%

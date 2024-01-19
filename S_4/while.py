@@ -140,5 +140,3 @@ while battery_level < battery_capacity and hour < 15:
     battery_level += solar_power
 
 print(f"The solar battery charge level is: {battery_level} Watt-hours.")
-
-# %%

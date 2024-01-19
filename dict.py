@@ -167,5 +167,3 @@ people = {"Alice": 25, "Bob": 30, "Charlie": 35, "David": 40}
 age_of_emma = people.setdefault("Emma", 20)
 print(age_of_emma)
 print(people)
-
-# %%

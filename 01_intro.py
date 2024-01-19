@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # %%
-commit_name = "training from scratch, day 10 (18.01.24)"
+commit_name = "training from scratch, day 11 (19.01.24)"
 print(commit_name)
 
 # %%
@@ -189,5 +189,3 @@ print("Last two characters:", text[-2:])
 text = "Python is amazing!"
 reversed_text = text[::-1]
 print(f"Reversed text: {reversed_text}")
-
-# %%

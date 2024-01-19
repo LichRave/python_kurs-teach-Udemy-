@@ -17,4 +17,3 @@ name = input("Podaj imie: ")
 age = input("Podaj wiek: ")
 print("Cześć, {}! Masz {} lat.".format(name, age))
 
-# %%

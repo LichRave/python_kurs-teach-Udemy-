@@ -342,5 +342,3 @@ elif not any(char.islower() for char in password):
     print("The password must contain at least one lowercase letter.")
 else:
     print("The password is complex enough.")
-
-# %%

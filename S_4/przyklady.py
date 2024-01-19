@@ -110,5 +110,3 @@ for room in rooms:
     ):
         continue
     print(f"Room number {room['number']} is available.")
-
-# %%
