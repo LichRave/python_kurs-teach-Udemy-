@@ -31,7 +31,6 @@ def triangle(a, b, c):
     # Dzialanie
     return int_a + int_b + int_c
 
-
 # Program
 if __name__ == "__main__":
     a = input("Podaj a: ")

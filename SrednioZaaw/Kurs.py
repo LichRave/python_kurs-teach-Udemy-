@@ -91,5 +91,3 @@ print("Koniec")
 
 class MyError(Exception):
     pass 
-
-#%%
