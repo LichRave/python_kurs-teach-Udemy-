@@ -171,4 +171,43 @@ rng = [i for i in range(1200, 2001, 130)]
 print(rng)
 
 
-# %%
+# %% 70
+lst1 = [44, 54, 64, 74, 104]
+lst2 = [i + 6 for i in lst1]
+
+print(lst2)
+
+# %% 71
+print("Zadanie")
+lst1 = [2, 4, 6, 8, 10, 12, 14]
+lst2 = [i * i for i in lst1 if i * i > 50]
+
+
+print(lst2)
+
+# or
+
+lst1 = [2, 4, 6, 8, 10, 12, 14]
+lst2 = [i**2 for i in lst1 if i**2 > 50]
+
+
+print(lst2)
+
+# %% 72
+dict = {
+    " Sedan ": 1500,
+    " SUV ": 2000,
+    " Pickup ": 2500,
+    " Minivan ": 1600,
+    " Van ": 2400,
+    " Semi ": 13600,
+    "Bicycle ": 7,
+    " Motorcycle ": 110,
+}
+
+lst_car = [key.upper() for key in dict if dict[key] < 5000]
+print(lst_car)
+
+# or
+lst23 = [key.upper() for key, value in dict.items() if value < 5000]
+print(lst23)
